@@ -1,0 +1,21 @@
+ERROR - 2022-07-14 21:55:28 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2022-07-14 21:56:22 --> Class "CodeIgniter\Database\SQLSERVER\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('SQLSERVER', 'CodeIgniter\\Database\\SQLSERVER\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(78): CodeIgniter\Database\Database->load([...], 'dbSiskeudes')
+ 3 APPPATH\Models\M_Cek.php(29): CodeIgniter\Database\Config::connect('dbSiskeudes')
+ 4 APPPATH\Controllers\Api\Cek.php(17): App\Models\M_Cek->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Api\Cek->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-14 21:56:27 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+ERROR - 2022-07-14 22:06:31 --> Error connecting to the database: Protocol error in TDS stream
+Client unable to establish connection due to prelogin failure
+ERROR - 2022-07-14 22:07:22 --> Error connecting to the database: Protocol error in TDS stream
+Client unable to establish connection due to prelogin failure
+ERROR - 2022-07-14 22:09:39 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'ref_rek_1'.
+ERROR - 2022-07-14 22:10:26 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'Ref_Rek_1'.
+ERROR - 2022-07-14 22:10:28 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'Ref_Rek_1'.
+ERROR - 2022-07-14 23:37:09 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near '='.
