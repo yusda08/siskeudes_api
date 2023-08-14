@@ -79,10 +79,10 @@ class Database extends Config
 
     public $dbSiskeudes = [
         'DSN' => '',
-        'hostname' => '36.95.205.37\SQLEXPRESS',
+        'hostname' => '192.168.14.18\MSSQLSERVER2019',
         'username' => 'sa',
-        'password' => 'randal2022',
-        'database' => 'siskeudes_2022_tabalong',
+        'password' => 'Yusufdanah12',
+        'database' => 'siskeudeshst2022',
         'DBDriver' => 'SQLSRV',
         'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
         'pConnect' => false,
@@ -98,6 +98,27 @@ class Database extends Config
         'failover' => [],
         'port' => 1433,
     ];
+//    public $dbSiskeudes = [
+//        'DSN' => '',
+//        'hostname' => '36.95.205.37\SQLEXPRESS',
+//        'username' => 'sa',
+//        'password' => 'randal2022',
+//        'database' => 'siskeudes_2022_tabalong',
+//        'DBDriver' => 'SQLSRV',
+//        'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
+//        'pConnect' => false,
+//        'DBDebug' => (ENVIRONMENT !== 'production'),
+//        'cacheOn' => false,
+//        'cacheDir' => '',
+//        'charset' => 'utf8',
+//        'DBCollat' => 'utf8_general_ci',
+//        'swapPre' => '',
+//        'encrypt' => false,
+//        'compress' => false,
+//        'strictOn' => false,
+//        'failover' => [],
+//        'port' => 1433,
+//    ];
 
     public function __construct()
     {
